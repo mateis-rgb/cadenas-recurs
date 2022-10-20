@@ -1,7 +1,7 @@
 class Cadena():
    
-   Def __init__(self, self.ListeCarCombinaison):
-      ListeCarCombinaison = self.ListeCarCombinaison
+   def __init__(self, ):
+      self. = 
       
       
 
