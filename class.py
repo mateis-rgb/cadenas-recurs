@@ -51,5 +51,5 @@ class Cadena():
    
    
    
-   class ListeCarCombinaison():
+class ListeCarCombinaison():
       
