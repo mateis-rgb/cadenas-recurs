@@ -39,3 +39,16 @@ caractères à partir de laquelle est constituée la combinaison d’un cadenas)
 Se rappeler qu’un attribut d’une classe peut prendre comme valeur une instance d’une autre
 classe. Pour éviter la ‘triche’ les deux classes seront sauvegardées dans un module qui sera
 importé dans le programme principal du jeu.
+
+class ListeCarCOmbinaison():
+  methode __init__(self nbJ, cadenas):
+    self.cadenas= cadenas
+    self.nbJ= nbj
+
+  methode estSeule(self):
+    retourner self.nbj = 1
+
+  methode nbEssai(self):
+    si self.cadenas[J]= cobinaison faire
+      pop(J)
+      ajouter dans une liste J qui ont finit
