@@ -40,15 +40,15 @@ Se rappeler qu’un attribut d’une classe peut prendre comme valeur une instan
 classe. Pour éviter la ‘triche’ les deux classes seront sauvegardées dans un module qui sera
 importé dans le programme principal du jeu.
 
-class ListeCarCOmbinaison():
-  methode __init__(self nbJ, cadenas):
-    self.cadenas= cadenas
-    self.nbJ= nbj
+class ListeCarCOmbinaison(): <br>
+  methode __init__(self nbJ, cadenas): <br>
+    self.cadenas= cadenas <br>
+    self.nbJ= nbj <br>
 
-  methode estSeule(self):
-    retourner self.nbj = 1
+  methode estSeule(self): <br>
+    retourner self.nbj = 1 <br>
 
-  methode nbEssai(self):
-    si self.cadenas[J]= cobinaison faire
-      pop(J)
-      ajouter dans une liste J qui ont finit
+  methode nbEssai(self): <br>
+    si self.cadenas[J]= cobinaison faire <br>
+      pop(J) <br>
+      ajouter dans une liste J qui ont finit <br>
