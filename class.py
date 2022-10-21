@@ -30,8 +30,20 @@ class ListeCarCombinaison():
       def nbEssai(self):
          self.nbEssai = 10;
          
-      def verification(self, combi):
-         for x ion range(combi):
-            if 
+      def verification(self, combi, J):
+         for i ion range(self.cadenas - 1):
+            for x in range(len(combi):
+               if x = i:
+                  cpt += 1
+            for k in range(len(combi):
+               if combi[k] == code[k]:
+                  cpi += 1
+         return "cpt mal poitioné" , "cpi bien positionné"
+                           
+                           
+                           
+                          
+                        
+                         
       
          
