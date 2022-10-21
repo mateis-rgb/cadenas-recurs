@@ -40,6 +40,12 @@ class ListeCarCombinaison():
                   cpi += 1
          return "cpt mal poitioné" , "cpi bien positionné"
                            
+      def transformerCombinaison(self ,combiUser=[])
+         for k in range(combiUser):
+              code.append(combiUser)
+         return code
+                           
+                           
                            
                            
                           
