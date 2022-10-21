@@ -23,41 +23,16 @@ class Cadena():
    
    
    
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
 class ListeCarCombinaison():
+      def __init__(self, nbJ, cadenas):
+         self.cadenas = cadenas;
+         self.nbJ = nbJ;
+         
+      def estSeule(self):
+         return self.nbJ == 1
       
+      def nbEssai(self):
+         if self.cadenas[J] == cobinaison:
+            pop(J)
+            
+         
