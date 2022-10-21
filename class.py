@@ -15,53 +15,23 @@ class Cadena():
             combi.append(random.choice(cars));
          self.cadenas[k] = combi;
       
-      
-
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
    
    
    
 class ListeCarCombinaison():
       
+      def __init__(self, nbJ, cadenas):
+         self.nbJ = nbJ;
+         self.cadenas = cadenas
+         
+      def estSeul(self):
+         return self.nbJ == 1;
+      
+      def nbEssai(self):
+         self.nbEssai = 10;
+         
+      def verification(self, combi):
+         for x ion range(combi):
+            if 
+      
+         
