@@ -28,12 +28,12 @@ class ListeCarCombinaison():
          return self.nbJ == 1;
       
       def nbEssai(self):
-         self.nbEssai = 10;
+         self.nbEssai == 10;
          
-      def gbijn(self, combi, j):
+      def verifiction(self, combi, j):
          for i in range(self.cadenas - 1):
             for x in range(len(combi):
-               if x = i:
+               if x == i:
                   cpt += 1;
             for k in range(len(combi):
                if combi[k] == code[k]:
