@@ -22,7 +22,7 @@ class ListeCarCombinaison():
       
       def __init__(self, nbJ, cadenas):
          self.nbJ = nbJ;
-         self.cadenas = cadenas
+         self.cadenas = cadenas;
          
       def estSeul(self):
          return self.nbJ == 1;
@@ -34,16 +34,16 @@ class ListeCarCombinaison():
          for i ion range(self.cadenas - 1):
             for x in range(len(combi):
                if x = i:
-                  cpt += 1
+                  cpt += 1;
             for k in range(len(combi):
                if combi[k] == code[k]:
-                  cpi += 1
-         return "cpt mal poitioné" , "cpi bien positionné"
+                  cpi += 1;
+         return "cpt mal poitioné" , "cpi bien positionné";
                            
-      def transformerCombinaison(self ,combiUser=[])
+      def transformerCombinaison(self ,combiUser=[]):
          for k in range(combiUser):
-              code.append(combiUser)
-         return code
+              code.append(combiUser);
+         return code;
                            
                            
                            
