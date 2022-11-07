@@ -1,7 +1,13 @@
-from class import *
+from class_cadenas import *
 
-NbrJ=input("Entrer le nombre de joueur : ")
-NbrJ=NbrJ.Cadenas
+combi=Cadena(int(input("Entrer le nombre de joueur : ")));
+
+combi.generer_cadenas();
+
+joueurs=ListeCarCombinaison(combi.nbj, combi.cadenas)
+
+joueurs.estSeul()
+joueurs.nbEssai()
 
 
 
@@ -9,7 +15,8 @@ NbrJ=NbrJ.Cadenas
 
 
 
-code = input(("Entrer votre combinaison : "))
+# input("Entrer votre combinaison : ").upper;"""
+
 
 
 
