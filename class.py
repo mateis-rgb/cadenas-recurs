@@ -31,7 +31,7 @@ class ListeCarCombinaison():
          self.nbEssai = 10;
          
       def verification(self, combi, J):
-         for i ion range(self.cadenas - 1):
+         for i in range(self.cadenas - 1):
             for x in range(len(combi):
                if x = i:
                   cpt += 1;
