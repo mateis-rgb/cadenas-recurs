@@ -33,7 +33,7 @@ class ListeCarCombinaison():
       def verifiction(self, combi, j):
          for i in range(self.cadenas - 1):
             for x in range(len(combi):
-               if x == i:
+               if x = i:
                   cpt += 1;
             for k in range(len(combi):
                if combi[k] == code[k]:
