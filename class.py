@@ -30,7 +30,7 @@ class ListeCarCombinaison():
       def nbEssai(self):
          self.nbEssai = 10;
          
-      def verification(self, combi, j):
+      def gbijn(self, combi, j):
          for i in range(self.cadenas - 1):
             for x in range(len(combi):
                if x = i:
