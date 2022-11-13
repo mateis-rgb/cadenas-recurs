@@ -1,14 +1,14 @@
 # cadenas-recurs
 Projet de NSI
 ## Arboressance :
-Fichier qui contient les deux classes.
--> class.py
+Fichier qui contient les deux classes. <br>
+-> class.py <br> <br>
 
-Fichier qui contient le code principale de la résolution du problème.
--> main.py
+Fichier qui contient le code principale de la résolution du problème. <br>
+-> main.py <br> <br>
 
-Fichier source du pdf (fichier latex)
--> projet.tex
+Fichier source du pdf (fichier latex) <br>
+-> projet.tex <br> <br>
 
 ## Consigne
 Un coffre-fort rempli de pièces d’or est fermé par autant de cadenas qu’il y a de joueurs.
@@ -39,16 +39,3 @@ caractères à partir de laquelle est constituée la combinaison d’un cadenas)
 Se rappeler qu’un attribut d’une classe peut prendre comme valeur une instance d’une autre
 classe. Pour éviter la ‘triche’ les deux classes seront sauvegardées dans un module qui sera
 importé dans le programme principal du jeu.
-
-class ListeCarCOmbinaison(): <br>
-  methode __init__(self nbJ, cadenas): <br>
-    self.cadenas= cadenas <br>
-    self.nbJ= nbj <br>
-
-  methode estSeule(self): <br>
-    retourner self.nbj = 1 <br>
-
-  methode nbEssai(self): <br>
-    si self.cadenas[J]= cobinaison faire <br>
-      pop(J) <br>
-      ajouter dans une liste J qui ont finit <br>
